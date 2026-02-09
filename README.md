@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, interactive personal portfolio website built with **React.js** and **Material UI (MUI)**. This project showcases my skills as a Frontend Developer & UI Designer, with smooth hover effects on cards and text for an engaging user experience.
 
-## Available Scripts
+Designed to highlight projects, skills, about section, and contact information in a clean, responsive layout.
 
-In the project directory, you can run:
+## 📦 Technologies Used
+- React.js
+- Material UI (MUI) for components, theming, and responsive design
+- CSS (with MUI's sx prop for custom styling)
+- React Router 
+- Framer Motion or CSS transitions
 
-### `npm start`
+## 🦄 Features
+Here's what makes this portfolio stand out:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Responsive Design** – Looks great on mobile, tablet, and desktop using MUI's grid system
+- **Hover Effects** – Smooth animations on project cards (scale, shadow, overlay text/color change)
+- **Text Hover Effect** – Special hover animation on one key text element (e.g., name, tagline, or call-to-action)
+- **Project Showcase** – Cards displaying projects with images, descriptions, tech stack, and links (GitHub + Live Demo)
+- **About & Skills Section** – Clean presentation of bio, expertise, and tools
+- **Contact Form / Links** – Easy way to reach out 
+- **Modern UI** – Clean typography, subtle animations, and MUI's polished components
 
-The page will reload when you make changes.\
-You may also see any lint errors in the  console.
+## 🎯 Highlights & What I Focused On
+- **Hover Interactions**: Added engaging hover states to project cards (scale up, shadow lift, overlay with details) and one special text hover (e.g., underline animation, color change, or reveal effect)
+- **MUI Theming**: Customized MUI theme for consistent colors, typography, and spacing
+- **Performance**: Optimized images and lazy loading where needed
+- **Accessibility**: Used semantic HTML and MUI's accessible components
 
-### `npm test`
+## 👩🏽‍🍳 The Process & What I Learned
+Set up React + MUI project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Key learnings:
+- Advanced hover effects using CSS transitions and MUI's sx prop
+- Creating reusable card components with dynamic props
+- Customizing MUI theme globally for brand consistency
+- Balancing animations so they feel smooth but not overwhelming
+- Making sure the site loads fast and looks good on all devices
 
-### `npm run build`
+## 💭 How Can It Be Improved?
+- Add dark/light mode toggle
+- Implement animations on page load (Framer Motion)
+- Add a blog section or case studies
+- Integrate contact form with EmailJS or backend
+- Add particle background or subtle scroll effects
+- SEO optimizations (meta tags, React Helmet)
+- Add more interactive elements (e.g., 3D tilt on cards)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚦 Running the Project Locally
+1. npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Portfolio 
+![Portfolio](portfolio1.png)
 
-### `npm run eject`
+### Portfolio Projects
+![Portfolio3](portfolio3.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Portfolio
+![Portfolio4](portfolio4.png)
