@@ -55,8 +55,6 @@ Key learnings:
 ### Portfolio 
 ![Portfolio](portfolio1.png)
 
-### Portfolio Projects
 ![Portfolio3](portfolio3.png)
 
-### Portfolio
 ![Portfolio4](portfolio4.png)
